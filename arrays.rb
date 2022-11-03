@@ -14,7 +14,16 @@ temperatures.pop
 emotions = ["happy", "sad", "mad", "angry"]
 emotions.pop
 
+# Index Positions
 # cars = ["ferrari", "porsche", "chevy", "honda"]
 # index positions are the placing that the above example of cars is in
 # the index position for the ferrai is [0]
 # you always begin with [0] and work up. In this case we have [4] index positions
+
+#  New array method:
+# method: .delete
+# example: cars = ["ferrari", "porsche", "chevy", "honda"]
+#          cars.delete ("honda")
+#          cars = ["ferrari", "porsche", "chevy"]
+# Using the delete method will delete any element from the array like we
+# did with "honda" in the above example.
