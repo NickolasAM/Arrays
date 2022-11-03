@@ -13,3 +13,8 @@ temperatures.pop
 # the pop method removed the last element "angry" from the array
 emotions = ["happy", "sad", "mad", "angry"]
 emotions.pop
+
+# cars = ["ferrari", "porsche", "chevy", "honda"]
+# index positions are the placing that the above example of cars is in
+# the index position for the ferrai is [0]
+# you always begin with [0] and work up. In this case we have [4] index positions
