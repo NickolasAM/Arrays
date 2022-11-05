@@ -2,17 +2,19 @@
 cars = ["ferrari", "porsche", "chevy", "honda"]
 cars.pop
 
-#the pop method removed the last element "32" from the array
-ages = ["21", "25", "30", "32"]
-ages.pop
+#the pop method removed the last element [32] from the array
+a = [21, 25, 30, 32]
+car.pop
 
-# the pop method removed the last element "65.7" from the array
-temperatures = ["32.2", "40.5", "52.3", "65.7"]
+# the pop method removed the last element [65.7] from the array
+temperatures = [32.2, 40.5, 52.3, 65.7]
 temperatures.pop
 
-# the pop method removed the last element "angry" from the array
-emotions = ["happy", "sad", "mad", "angry"]
-emotions.pop
+# the include? method checks to see if value is part of the array resulting in true or false
+a = [2, 3.0, 4.0, 5]
+a.include?(2) #True
+a.include?(5) #True
+a.include?(7) #false
 
 # Index Positions
 # cars = ["ferrari", "porsche", "chevy", "honda"]
