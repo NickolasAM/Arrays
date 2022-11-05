@@ -1,20 +1,18 @@
-# the pop method removed the last element "honda" from the array
+# the shift method shidts down all the other elements from the array
 cars = ["ferrari", "porsche", "chevy", "honda"]
-cars.pop
+cars.shift
 
 #the pop method removed the last element [32] from the array
-a = [21, 25, 30, 32]
-car.pop
+age = [21, 25, 30, 32]
+age.pop
 
-# the pop method removed the last element [65.7] from the array
+# the push method pushes 32.2 to the end of the array
 temperatures = [32.2, 40.5, 52.3, 65.7]
-temperatures.pop
+temperatures.push
 
-# the include? method checks to see if value is part of the array resulting in true or false
-a = [2, 3.0, 4.0, 5]
-a.include?(2) #True
-a.include?(5) #True
-a.include?(7) #false
+# the unshift moves the elements upward
+bools = [2, 3.0, 4.0, 5]
+bools.unshift
 
 # Index Positions
 # cars = ["ferrari", "porsche", "chevy", "honda"]
